@@ -45,7 +45,7 @@ Example
 
 
 
-Install R to check if Graph is connected or not
+Install R to check some characteristics of Graph
 --------
 
 
