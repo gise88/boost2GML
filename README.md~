@@ -38,13 +38,10 @@ make
 Examples
 --------
 
-### Create
-
-Create a GraphML file with 100 nodes:
+#### Create a GraphML file with 100 nodes:
 
 ``` bash
-./test 100 2.0 1000 > myGraphMLFile.xml
+./boost2gml 100 2.0 1000 > myGraphMLFile.xml
 ```
-
 
 
