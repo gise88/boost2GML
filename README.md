@@ -19,10 +19,6 @@ cd boost_1_55_0
 
 ./b2 --show-libraries
 
-./b2 --with-math --with-regex --with-graph
-
-or install
-
 sudo ./b2 --with-math --with-regex --with-graph install
 ```
 
