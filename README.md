@@ -9,6 +9,8 @@ Install [Boost Graph Library (BGL)](http://www.boost.org/)
 
 
 ``` bash
+sudo apt-get install tklib tk-dev tcl-dev tcllib bison libbison-dev flex blt blt-dev
+
 wget http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download -O boost_1_55_0.tar.gz
 
 tar -zxvf boost_1_55_0.tar.gz
@@ -40,5 +42,65 @@ Example
 ``` bash
 ./boost2gml 100 2.0 1000 > myGraphMLFile.xml
 ```
+
+
+
+Install R to check if Graph is connected or not
+--------
+
+
+``` bash
+sudo apt-get install r-base xsltproc docbook-xsl docbook-xml libbz2-dev libxml2 libxml2-dev
+```
+
+#### Install igraph library
+``` R
+sudo R
+install.packages("igraph")
+```
+
+#### Check if graph is connected
+
+``` R
+R
+library(igraph)
+g <- read.graph("graphml_file", format="graphml")
+is.connected(g, mode="strong")
+degree(g)
+```
+
+
+#### Calculate max degree of graph
+
+``` R
+R
+library(igraph)
+g <- read.graph("graphml_file", format="graphml")
+degree(g)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
