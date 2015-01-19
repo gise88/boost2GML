@@ -4,6 +4,12 @@ boost2GML
 Lightened version of boostgraph2GML project done for "Sistemi Di Simulazione" exam.
 
 
+
+![Screenshot](https://raw.githubusercontent.com/gise88/boost2GML/master/screenshot/10.xml.png)
+![Screenshot](https://raw.githubusercontent.com/gise88/boost2GML/master/screenshot/100.xml.png)
+
+
+
 Install [Boost Graph Library (BGL)](http://www.boost.org/)
 --------
 
